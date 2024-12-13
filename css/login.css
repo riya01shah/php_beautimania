@@ -1,0 +1,83 @@
+
+
+.container {
+    width: 350px;
+    margin: 25px auto 50px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  #f19898;
+    padding: 40px;
+    border: 1px solid white;
+}
+.center {
+    text-align: center;
+}
+.container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f19898;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f19898;
+}
+
+.input-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f19898;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #c67b7b;
+}
+
+.link {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.link a {
+    color: #f19898;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.eye-icon {
+    cursor: pointer;
+    margin-right: 10px;
+    /* Adjust margin to create space between input field and icon */
+    display: flex;
+    align-items: end;
+    /* Vertically align icon */
+}

@@ -1,0 +1,389 @@
+/* Common Css Start */
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+  
+    font-family: "Open Sans", sans-serif;
+}
+.txt {
+color: white;
+}
+a {
+text-decoration: none !important;
+color: white !important;
+}
+.center {
+text-align: center;
+}
+.left {
+  text-align: left !important;
+}
+/* Common Css  END */
+/* about css start */
+.about_img_wrp li {
+display: inline;
+}
+/* about css end */
+/* home csss start */
+.slideshow {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.slideshow .slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: fade 4s ease-in-out infinite;
+}
+/* home csss end */
+/* PRODUCT CSS START */
+.image_list {
+  list-style-type: circle;
+
+}
+.image_list a {
+  color: #000;
+}
+.gallery {
+  text-align: center;
+}
+/* PRODUCT CSS END */
+/* Banner Css  Start*/
+.banner {
+    
+    height: 400px;
+    width: 100%;
+}
+.banner-quote-wrap {
+position: relative;
+text-align: center;
+}
+.banner-quote-wrap h1 {
+position: absolute;
+color: white;
+font-weight: 700;
+font-size: 45px;
+padding: 0px 0px 0px 70px;
+bottom: 80px;
+}
+
+h1 {
+    font-family: "Pacifico", cursive !important;
+  }
+
+/* Banner Css  END*/
+
+/*Main body css Start  */
+
+
+.main-body {
+    width: 100%;
+    display: block;
+  }
+  
+  .h300 {
+    height: 300px;
+    margin-top: 100px;
+  }
+  
+  .abt-wrap {
+      text-align: center;
+      padding: 0 30px 0 30px;
+  }
+  .abt-wrap h2 , .product-wrap h2 , .shop-wrp h2 {
+   font-size: 30px
+  }
+  .abt-wrap p {
+    text-align: left;
+  }
+  .product-wrap {
+      padding: 30px;
+  }
+  .product-head {
+      text-align: center;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 #f19898;
+    transition: 0.3s;
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    text-align: center ; 
+    border: 1px solid white;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #24b208;
+  }
+  .shop-wrp {
+    text-align: center;
+    padding: 20px 0px 30px;
+  }
+  .shop-card {
+    box-shadow: 0 4px 8px 0 #f19898;
+    transition: 0.3s;
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    text-align: center;
+    border: 1px solid white;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin: 10px 25px 15px 25px;
+  }
+  
+  .shop-card:hover {
+    box-shadow: 0 8px 16px 0 #24b208;
+  }
+  
+  .shop-container {
+   
+    text-align: center;
+      display: inline-block;
+  }
+  .shop-icon {
+    
+      /* display: inline-block; */
+      padding-right: 9px;
+      vertical-align: super;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .container h4 {
+    font-size: 18px;
+  }
+  .card-wrapper {
+      text-align: center;
+      display: flex;
+  }
+  .shop-head {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .shop-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+/* Main body css end */
+/* FAQ CSS START CSS */
+
+	
+.faq h1, .faq ul {
+	margin: 0;
+	padding: 0;
+}
+.faq h2 {
+	font-size: 125%;
+	cursor: pointer;	
+}
+.faq ul {
+	list-style-type: disclosure-closed;
+  margin-left: 20px;
+}
+.hidden {
+	display: none;
+}
+/*FAQ CSS START CSS End  */
+/*Aside Css Start  */
+.navigation-body {
+    
+    display: flex;
+    justify-content: space-around;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  
+ nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+ nav li a:hover {
+    background-color: #f19898;
+    border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: black
+    /* border: 2px solid black; */
+  }
+  
+  /* .active {
+    background-color: #f19898;
+    
+  } */
+  /* Aside Css End */
+
+/* CONTACT US PAGE CSS START */
+.form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+.contact-us
+{
+  padding-top: 20px;
+  margin: 0;
+}
+.map {
+    text-align: center;
+}
+/* CONTACT US PAGE CSS END */
+
+  /* FOOTER CSS START */
+.footer-wrap {
+    text-align: center;
+    }
+    .beautimania-wrap {
+    display: inline-block;
+    width: 30%;
+    }
+    .beautimania-wrap h4 , .quick-links h4 , .customer-service h4  {
+     font-size: 18px;
+    }
+    .customer-service {
+      display: inline-block;
+    width: 30%;
+    }
+    .quick-links {
+      display: inline-block;
+    width: 30%;
+    }
+    .social-media-icons {
+      text-align: right;
+      padding-right: 30px;
+    }
+    .icons {
+      padding: 5px;
+      font-size: 24px;
+    }
+    .footer-end-wrp {
+      text-align: center;
+    }
+    .footer-end {
+      text-decoration: none;
+      color: white;
+    }
+    /* FOOTER CSS END */
+    @media screen and (max-width: 768px) {
+        .navigation-body {
+    
+           
+            display: block;
+        text-align: center;
+          }
+          nav {
+            display: block;
+            
+          }
+        nav ul {
+            display: block;
+            
+          }
+          .card-wrapper {
+            display: block;
+           
+          }
+          .card {
+           
+            margin-bottom: 15px;
+            margin-right: 0px
+          }
+          .shop-card-wrapper {
+            display: block;
+          }
+          .form-container {
+            width: 80%;
+          }
+          .banner-quote-wrap h1 {
+            padding: 0px 0px 0px 20px;
+          }
+          .map iframe {
+            width: 80%;
+            text-align: center;
+          }
+          .beautimania-wrap h4, .quick-links h4, .customer-service h4 {
+            font-size: 14px;
+        }
+    }

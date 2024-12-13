@@ -1,0 +1,38 @@
+h2, h4 {
+    color: white;
+    font-weight: bold;
+}
+table {
+    margin: 20px 0px 50px !important;
+    text-align: center;
+}
+tr,td {
+    vertical-align: middle !important;
+}
+th, td {
+    color: white;
+}
+p {
+    color: #fff;
+}
+
+.pink {
+ background-color: #f29898 !important;
+ border: none !important;
+ color: white !important;
+ font-weight: bold;
+}
+input {
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.mb25 {
+    margin-bottom: 25px;
+}
+.cart-container
+{
+    width: 80%;
+    margin:  0 auto;
+}
